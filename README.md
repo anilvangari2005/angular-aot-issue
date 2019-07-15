@@ -1,6 +1,6 @@
 # angular-aot-issue
 
-This project is for reproducing the below error on stackoverflow.com
+This project is for reproducing the below error in response to stackoverflow question
 
 ```
 ERROR in Error during template compile of 'BlogModule'
