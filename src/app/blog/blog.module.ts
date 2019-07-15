@@ -9,9 +9,9 @@ import { BLOG_STATES } from "./blog.states";
   declarations: [BlogHomeComponent, BlogPostsAllComponent],
   imports: [
     CommonModule,
-    // UIRouterModule.forChild({
-    //   states: BLOG_STATES
-    // })
+    UIRouterModule.forChild({
+      states: BLOG_STATES
+    })
   ],
   exports: [BlogHomeComponent, BlogPostsAllComponent]
 })
