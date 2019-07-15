@@ -1,0 +1,13 @@
+<p>
+<input type="checkbox" name="darkColorTheme" [(ngModel)]="darkColorTheme" (change)="themeChanged()" >
+  Dark Theme {{darkColorTheme ? 'ON' : 'OFF'}}
+</p>
+
+<p>
+  <textarea style="width: 80%; height: 5rem" placeholder="Enter some text here and toggle the theme"></textarea>
+</p>
+
+
+<p>
+  Generated on: {{ now | date:'MM/dd/yyyy hh:mm:ss'}}
+</p>
